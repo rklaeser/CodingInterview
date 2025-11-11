@@ -1,7 +1,5 @@
 {
 	"buildCommand": "npm run build",
 	"installCommand": "npm install",
-	"framework": null,
-	"outputDirectory": ".svelte-kit",
-	"rootDirectory": "app"
+	"framework": null
 }
