@@ -70,6 +70,20 @@
 					<span class="text-xs text-gray-600">Quiz</span>
 				{/if}
 			</a>
+
+			<a
+				href="/code-quiz"
+				class="flex {sidebarExpanded ? 'flex-row items-center gap-6 px-4' : 'flex-col items-center gap-1 px-2'} py-3 rounded-lg hover:bg-gray-100 transition-colors group"
+			>
+				<svg class="w-6 h-6 text-gray-700 group-hover:text-gray-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+				</svg>
+				{#if sidebarExpanded}
+					<span class="text-sm font-medium text-gray-900">Code Quiz</span>
+				{:else}
+					<span class="text-xs text-gray-600">Code</span>
+				{/if}
+			</a>
 		</nav>
 	</aside>
 
